@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+ }
+
+ body {
+    background: rgb(37, 37, 37);   
+    color: rgb(255, 255, 255);
+ }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    position: absolute;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: red;
+}
+
+.home {
+    height: 100vh;
+    background: url(https://i.redd.it/u4qqequeekfc1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(83, 83, 83);
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: black;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: grey;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: grey;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+ }
+
+ .home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 160px;
+ }
+
+ .home-sci a {
+    position: relative;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+ }
+
+ .home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: blue;
+    z-index: -1;
+    transition: .5s;
+ }
+
+ .home-sci a:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: .5s;
+ }
+
+ .home-sci a:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: skyblue;
+    z-index: -1;
+    transition: .5s;
+ }
+ 
+.home-sci a:hover::before {   
+    width: 100%;
+} 
+

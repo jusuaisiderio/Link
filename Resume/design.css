@@ -1,0 +1,151 @@
+.Categories {
+	width: 800px;
+	height: 740px;
+	border: 2px solid;
+	margin: auto;
+	}
+
+img {
+	width: 210px;
+	height: 180px;
+	margin: 20px;
+	border: 1px solid;
+	float: left;
+	margin: 25px;
+	margin-right: 50px;
+	margin-left: 40px;	
+	margin-top: 33px;
+	}
+	
+.header {
+	width: 180px;
+	height: 50px;
+	border: 2px solid white;
+	background-color: white;
+	margin-left: 30px;
+	margin-top: -25px;
+	position: absolute;
+	isolation: isolate;
+	}
+
+.head0 {
+	text-align: left;
+	float: bottom;
+	}
+	
+.head1 {
+	float: left;
+	padding: 5px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-left: -10px;	
+	}	
+	
+.tail {
+	float: right;
+	margin: 20px 40px 50px;
+	font-size: 14px;
+	text-align: right;
+	}
+	
+.info {
+	font-size: 17px;
+	font-weight: bold;
+	padding: 40px;
+	margin-top: 210px
+	}
+	
+.vid {
+	border: 1px solid;
+	width: 225px;
+	height: 180px;
+	margin-left: 40px;
+	position: absolute;
+	}
+
+/* Attachment */
+.box {
+	width: 240px;
+	height: 180px;
+	border: 1px solid;
+	margin-left: 505px;
+	position: absolute;
+	padding-left: 10px;
+	}
+	
+.box1 { /* box of 2 to 6 */
+	width: 210px;
+	height: 180px;
+	border: 1px solid;
+	margin-left: 280px;
+	position: absolute;
+	display: flex;
+	}
+ 
+.box2 { /* Kaju */	
+	width: 78px;
+	height: 78px;
+	margin-top: 95px;
+	margin-left: 24px;
+	position: absolute;
+	}
+
+	
+.box3 { /* Asahi_Amagami */
+	width: 78px;
+	height: 78px;
+	margin-top: 95px;
+	margin-left: 109px;
+	position: absolute;	
+	}	
+
+.box4 {
+	position: right;
+	display: flex;
+	margin:	10px;
+	}
+
+.box5 { /*mugi nekozane */
+	width: 78px;
+	height: 78px;
+	margin-top: 10px;
+	margin-left: 14px;
+	margin-right: -05px;	
+	}
+	
+.box6 { /* shina mahiru */
+	width: 78px;
+	height: 78px;
+	margin-top: 10px;
+	margin-left: 13px;
+	margin-right: 30px;	
+	}
+		
+
+
+.img1 { /* Kaju Nukumizu */
+	width: 78px;
+	height: 68px;
+	margin-top: -1px;
+	margin-left: -2px;
+	}
+.img2 { /* Asahi_Amagami */
+	width: 78px;
+	height: 68px;
+	margin-top: -1px;
+	margin-left: -1px;
+	}
+
+.img3 { /*Mugi nekozane */
+	width: 78px;
+	height: 68px;
+	margin-top: -1px;
+	margin-left: -2px;
+	}
+	
+.img4 { /* Shina mahiru */
+	width: 78px;
+	height: 68px;
+	margin-top: -1px;
+	margin-left: -2px;
+	} 

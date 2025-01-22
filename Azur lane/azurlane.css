@@ -1,0 +1,256 @@
+.head img {
+    width: 1423px;
+    height: 780px;
+    position: absolute;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 28px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+}
+
+.blur {
+    background: transparent;
+    width: 1420px;
+    height: 100px;
+    border: 1px solid white;
+    filter: blur(10px);
+    position: absolute;
+    left: 0;
+    z-index: -100; 
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+
+.navbar a:hover {
+    color: rgb(0, 0, 255);
+}
+
+.azur {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 10px;
+    margin-top: 600px;
+    width: 1423px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+}
+
+.home-sci {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+}
+
+.home-sci a {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 2px 4px white);
+    color: white;
+    z-index: 100;
+}
+
+.home-sci img {
+    width: 45px;
+    height: 50px;
+    filter: drop-shadow(1px 1px white);
+    z-index: -1;
+    color: white;
+}
+
+.azur img {
+    filter: invert(92%) sepia(0%) saturate(7475%) hue-rotate(141deg) brightness(112%) contrast(99%);
+}
+
+.azur a:nth-child(1) {
+    background-color: blue;
+}
+
+.azur a:nth-child(2) {
+    background-color: black;
+}
+
+.azur a:nth-child(3) {
+    background-color: rgb(85, 124, 255);
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 110px;
+    margin-left: -5px;
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+    position: absolute;
+}
+
+.aboutme {
+    color: rgb(255, 0, 0);
+    font-weight: 1000;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.resume {
+    top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-right: 120px;    
+    position: absolute;  
+    
+}
+
+.resume p a{
+    width: 300px;
+    height: 0px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -10px;
+    text-decoration: none;
+}
+
+.resume {
+    margin-left: 200px;
+}
+
+.resume p a:hover {
+    color: red;
+}
+
+.project p a{
+    position: relative;
+    margin-top: 20px;
+    top: -30px;
+    left: 10px;
+    text-decoration: none;
+}
+
+.project p a:nth-child(2){
+    left: 25px;
+}
+
+.project p a:nth-child(3){
+    left: 10px;
+}
+
+.project p a:nth-child(4){
+    left: -5px;
+}
+
+.project p a:nth-child(5){
+    left: -5px;
+}
+
+.black {
+    width: 712px;
+    height: 725px;
+    position: relative;
+    top: 1000px;
+}
+
+.white {
+    width: 712px;
+    height: 725px;
+    position: absolute;
+    top: 1000px;
+    left: 710.5px;
+}
+
+.black .img1 {
+    width: 712px;
+    height: 725px;
+    position: absolute;
+}
+
+.black .img2 {
+    border: 2px Inset silver;
+    width: 430px;
+    height: 225px;
+    position: absolute;
+    right: 150px;
+    top: 175px;
+    box-shadow: 1px 1px 2px silver;
+    position: absolute;
+    overflow: visible;
+}
+
+.black .img3 {
+    top: 420px;
+    left: 530px;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    filter: invert(92%) sepia(0%) saturate(7475%) hue-rotate(141deg) brightness(112%) contrast(99%);
+}
+
+
+.black .img4 {
+    top: 420px;
+    left: 105px;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    filter: invert(92%) sepia(0%) saturate(7475%) hue-rotate(141deg) brightness(112%) contrast(99%);
+}
+
+.black p {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    top: 430px;
+    left: 230px;
+    font-weight: 1000;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+}
+

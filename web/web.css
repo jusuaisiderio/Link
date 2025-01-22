@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(110deg, red,black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    background-attachment: fixed;
+    /*
+    background-image: url(https://images.pexels.com/photos/986774/pexels-photo-986774.jpeg?auto=compress&cs=tinysrgb&w=600);
+    */
+}
+
+.image {
+    width: 500px;
+    height: 450px;
+    margin-left: 800px;
+    margin-top: -100px;
+    position: absolute;
+    border-radius: 20px;
+}
+ 
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    position: absolute;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: -20px;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+.main {
+    margin: 250px 0px 0px 120px;
+    min-width: 500px;
+    width: 500px;
+}
+
+.main p{   
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.main :nth-child(1){
+    padding-bottom: 20px;
+}
+
+.main .log {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.p3 {
+    color: white;
+    margin-left: 800px;
+    margin-top: 530px;
+    margin-bottom: 250px;
+    min-width: 500px;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.img2 {
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: -190px;
+    margin-left: 150px;
+}
+
+.game img {
+    height: 350px;
+    width: 500px;
+    margin-left: 120px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.game h2 {
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    border: 1px ouset red;
+    border-radius: 20px;
+    background: linear-gradient(120deg, red, black);
+    width: 350px;
+    height: 80px;
+    margin-left: 550px;
+}
+
+.btn1 {
+    font-size: 15px;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: -530px;
+    background: linear-gradient(red, black);
+    position: relative;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 200;
+}
+
+.btn1 {
+    font-size: 15px;
+    width: 460px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 140px;
+    position: absolute;
+    margin-top: -530px;
+    background: linear-gradient(red, black);
+    position: absolute;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 200;
+}
+
+.btn2 {
+    font-size: 15px;
+    width: 460px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 140px;
+    position: absolute;
+    margin-top: -40px;
+    background: linear-gradient(red, black);
+    position: absolute;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 200;
+}
+
+.btn3 {
+    font-size: 15px;
+    width: 460px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 765px;
+    position: absolute;
+    margin-top: -530px;
+    background: linear-gradient(red, black);
+    position: absolute;
+}
+
+.btn3 a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 200;
+}
+
+.btn4 {
+    font-size: 15px;
+    width: 460px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 765px;
+    position: absolute;
+    margin-top: -40px;
+    background: linear-gradient(red, black);
+    position: absolute;
+}
+
+.btn4 a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 200;
+}
+
+button:hover {
+    background: linear-gradient( black,red)
+}
